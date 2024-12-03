@@ -1,0 +1,128 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../public/background.jpg') no-repeat center center/cover;
+  height: 609px;
+  padding-top: 120px;
+}
+
+.intro {
+  background-color: #f8f9fa;
+  display: grid;
+  grid-template-columns:  6fr 6fr;
+}
+
+.box-btn{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+
+.btn-cuntry{
+  width: 260px;
+  height: 65px;
+  top: 723px;
+  left: 1153px;
+  border-radius: 1px;
+  border: 1px solid #E7760D;
+  background-color: #FFF;
+  margin: 5PX;
+}
+
+.steps .step {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.buyer{
+   background-color: #072F57;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+   padding: 50px 20px;
+   margin: 50px 100px;
+   width: 1316px;
+   height: 623px;
+}
+
+.bi-check-circle-fill{
+  font-weight: 500;
+  font-size: 18.75px;
+  line-height: 39px;
+}
+
+.banner{
+  height: 150px;
+  background-color: #E8FBFF;
+  top: 1880px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-info{
+  background-color: #E8FBFF;
+}
+
+.work{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  margin: 50px;
+ } 
+
+ footer{
+  background-color: #072F57;
+  height: 232px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+ }
+
+ .quicklinks{
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .quicklinks a{
+  display: block;
+  text-decoration: none;
+ }
